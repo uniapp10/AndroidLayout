@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@+id/fra_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One Button"
+        android:background="@color/colorMine"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text View"
+        android:background="@color/colorMine"
+        android:layout_gravity="right"/>
+</FrameLayout>
+
+<!--<RelativeLayout android:layout_height="match_parent"-->
+                <!--android:layout_width="match_parent"-->
+                <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--<android.support.v7.widget.AppCompatTextView-->
+        <!--android:id="@+id/textLeft"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="左上角"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--/>-->
+    <!--<android.support.v7.widget.AppCompatTextView-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="右上角"-->
+        <!--android:layout_toRightOf="@+id/textLeft"-->
+        <!--android:background="@color/colorMine"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--/>-->
+
+    <!--<android.support.v7.widget.AppCompatTextView-->
+        <!--android:id="@+id/centerText"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="中间"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:background="@color/colorMine"-->
+        <!--/>-->
+
+    <!--<android.support.v7.widget.AppCompatTextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="左下角"-->
+        <!--android:layout_toLeftOf="@+id/centerText"-->
+        <!--android:layout_below="@+id/centerText"-->
+        <!--/>-->
+
+    <!--<android.support.v7.widget.AppCompatTextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="右下角"-->
+        <!--android:layout_toRightOf="@+id/centerText"-->
+        <!--android:layout_below="@+id/centerText"-->
+        <!--/>-->
+<!--</RelativeLayout>-->
+
+<!--&lt;!&ndash;<线性布局:vertical>&ndash;&gt;-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+              <!--android:layout_width="fill_parent"-->
+              <!--android:layout_height="200dp"-->
+              <!--android:layout_alignParentBottom="true"-->
+              <!--android:gravity="center_vertical"-->
+              <!--android:orientation="vertical"-->
+    <!--android:weightSum="3">-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_left"-->
+        <!--android:text="button_left"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textColor="#000000"-->
+        <!--android:background="@color/colorMine"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:id="@+id/button_center"-->
+        <!--android:text="button_center"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textColor="#000000"-->
+        <!--android:background="@color/colorMine"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:id="@+id/button_right"-->
+        <!--android:text="button_right"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textColor="#000000"-->
+        <!--android:background="@color/colorMine"-->
+        <!--/>-->
+
+<!--</LinearLayout>-->
+<!--&lt;!&ndash;<线性布局:horizontal>&ndash;&gt;-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+              <!--android:layout_width="fill_parent"-->
+              <!--android:layout_height="wrap_content"-->
+              <!--android:layout_alignParentBottom="true"-->
+              <!--android:gravity="center_vertical"-->
+              <!--android:orientation="horizontal"-->
+              <!--android:weightSum="3">-->
+
+<!--<Button-->
+    <!--android:id="@+id/button_left"-->
+    <!--android:text="button_left"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:textColor="#000000"-->
+    <!--android:background="@color/colorMine"-->
+    <!--/>-->
+<!--<Button-->
+    <!--android:id="@+id/button_center"-->
+    <!--android:text="button_center"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:textColor="#000000"-->
+    <!--android:background="@color/colorMine"-->
+    <!--/>-->
+<!--<Button-->
+    <!--android:id="@+id/button_right"-->
+    <!--android:text="button_right"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:textColor="#000000"-->
+    <!--android:background="@color/colorMine"-->
+    <!--/>-->
+<!--</LinearLayout>-->
