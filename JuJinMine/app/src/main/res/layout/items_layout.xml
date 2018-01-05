@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="GoToActivity"
+        android:onClick="goToActivity"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="GoToService"
+        android:onClick="goToService"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button4"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="GoToContentProvider"
+        android:onClick="goToContentProvider"
+        android:layout_below="@+id/button5"
+        android:layout_alignLeft="@+id/button4"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="GotoBroadcast"
+        android:onClick="goToBroadcast"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button6"
+        android:layout_alignLeft="@+id/button6"
+        />
+</RelativeLayout>
