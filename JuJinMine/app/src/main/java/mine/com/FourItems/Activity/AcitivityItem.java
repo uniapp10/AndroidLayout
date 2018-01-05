@@ -1,4 +1,4 @@
-package mine.com.ItemsDetail;
+package mine.com.FourItems.Activity;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package mine.com.ItemsDetail;
+package mine.com.FourItems.ContentProvider;
 
 /**
  * Created by zhudongdong on 2018/1/4.

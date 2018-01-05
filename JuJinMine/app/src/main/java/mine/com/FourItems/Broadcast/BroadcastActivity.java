@@ -1,4 +1,4 @@
-package mine.com.ItemsDetail;
+package mine.com.FourItems.Broadcast;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

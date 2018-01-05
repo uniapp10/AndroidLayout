@@ -1,4 +1,4 @@
-package mine.com.ItemsDetail;
+package mine.com.FourItems.Service;
 
 import android.app.Service;
 import android.content.Intent;

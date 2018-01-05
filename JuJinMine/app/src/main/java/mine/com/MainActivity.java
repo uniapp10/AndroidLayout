@@ -16,11 +16,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void goNext(View v){
-        Intent intent = new Intent(MainActivity.this, MineActivity.class);
-        startActivity(intent);
-    }
-
     public void goLayout(View v){
         Intent intent = new Intent(MainActivity.this, LayoutActivity.class);
         startActivity(intent);

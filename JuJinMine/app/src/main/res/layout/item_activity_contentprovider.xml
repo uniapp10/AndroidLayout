@@ -10,7 +10,8 @@
         android:layout_height="wrap_content"
         android:background="@color/colorMine"
         android:onClick="getContracts"
-        android:text="获取联系人的ContentProvider"/>
+        android:text="获取联系人的ContentProvider"
+        android:textAllCaps="false"/>
 
     <Button
         android:id="@+id/button11"
@@ -19,7 +20,8 @@
         android:background="@color/colorPrimary"
         android:onClick="giveProvider"
         android:text="创建ContentProvider"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"/>
 
     <ListView
         android:id="@+id/contentProvider_item"

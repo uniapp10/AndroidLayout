@@ -7,10 +7,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import mine.R;
-import mine.com.ItemsDetail.AcitivityItem;
-import mine.com.ItemsDetail.BroadcastActivity;
-import mine.com.ItemsDetail.ContentProviderItem;
-import mine.com.ItemsDetail.ServiceActivity;
+import mine.com.FourItems.Activity.AcitivityItem;
+import mine.com.FourItems.Broadcast.BroadcastActivity;
+import mine.com.FourItems.ContentProvider.ContentProviderItem;
+import mine.com.FourItems.Service.ServiceActivity;
 
 /**
  * Created by zhudongdong on 2018/1/3.

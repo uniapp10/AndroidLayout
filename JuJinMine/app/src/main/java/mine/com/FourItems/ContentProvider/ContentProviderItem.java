@@ -1,4 +1,4 @@
-package mine.com.ItemsDetail;
+package mine.com.FourItems.ContentProvider;
 
 import android.annotation.TargetApi;
 import android.content.Intent;

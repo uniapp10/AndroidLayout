@@ -10,12 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".com.MineActivity"
-            android:label="@string/title_activity_mine">
-        </activity>
         <activity android:name=".com.MainActivity"
-            android:label="@string/title_activity_main">
+                  android:label="@string/title_activity_main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -26,40 +22,50 @@
             android:label="@string/title_activity_layout">
         </activity>
 
+        <activity android:name=".com.Layouts.LinearlayoutActivtiy"
+            android:label="Linearlayout">
+        </activity>
+        <activity android:name=".com.Layouts.RelativeLayoutActivtiy"
+                  android:label="RelativeLayout">
+        </activity>
+        <activity android:name=".com.Layouts.FrameLayoutActivtiy"
+                  android:label="FrameLayout">
+        </activity>
+
         <activity android:name=".com.ItemsActivity"
             android:label="四大组件">
         </activity>
-        <activity android:name=".com.ItemsDetail.AcitivityItem"
+        <activity android:name=".com.FourItems.Activity.AcitivityItem"
             android:label="TrueActivity">
         </activity>
 
-        <activity android:name=".com.ItemsDetail.ServiceActivity"
+        <activity android:name=".com.FourItems.Service.ServiceActivity"
             android:label="ServiceActivity">
         </activity>
 
-        <service android:name=".com.ItemsDetail.DownloadService"
+        <service android:name=".com.FourItems.Service.DownloadService"
             android:exported="true"
             android:enabled="true">
         </service>
 
-        <activity android:name=".com.ItemsDetail.ContentProviderItem"
+        <activity android:name=".com.FourItems.ContentProvider.ContentProviderItem"
             android:label="ContentProvider">
 
         </activity>
-        <activity android:name=".com.ItemsDetail.ContentProviderCustomActivity"
+        <activity android:name=".com.FourItems.ContentProvider.ContentProviderCustomActivity"
             android:label="创建ContentProvider">
 
         </activity>
         
         <provider
             android:authorities="com.jujin.mine"
-            android:name=".com.ItemsDetail.ContentProviderCustom"
+            android:name=".com.FourItems.ContentProvider.ContentProviderCustom"
             android:enabled="true"
             android:exported="true">
 
         </provider>
 
-        <activity android:name=".com.ItemsDetail.BroadcastActivity"
+        <activity android:name=".com.FourItems.Broadcast.BroadcastActivity"
             android:label="大喇叭广播">
 
         </activity>

@@ -1,4 +1,4 @@
-package mine.com.ItemsDetail;
+package mine.com.FourItems.ContentProvider;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
