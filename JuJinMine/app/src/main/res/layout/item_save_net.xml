@@ -4,13 +4,15 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-
     <Button
-        android:id="@+id/button16"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="loadUrl"
+        android:text="获取网络数据"
+        android:background="@color/colorMine"/>
+    <WebView
+        android:id="@+id/save_webView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send Broadcast"
-        android:textAllCaps="false"
-        android:onClick="sendBroadcast"/>
-
+        android:background="@color/colorMine"></WebView>
 </LinearLayout>

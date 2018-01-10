@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import mine.R;
+import mine.com.SaveItems.SaveItemsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void goItems(View v){
         Intent intent = new Intent(MainActivity.this, ItemsActivity.class);
+        startActivity(intent);
+    }
+
+    public void goSaveItems(View v){
+        Intent intent = new Intent(MainActivity.this, SaveItemsActivity.class);
         startActivity(intent);
     }
 }
