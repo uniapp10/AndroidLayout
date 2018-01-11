@@ -9,7 +9,7 @@ import android.view.View;
 import mine.R;
 import mine.com.FourItems.Activity.AcitivityItem;
 import mine.com.FourItems.Broadcast.BroadcastActivity;
-import mine.com.FourItems.ContentProvider.ContentProviderItem;
+import mine.com.FourItems.ContentProvider.ContentProviderActivity;
 import mine.com.FourItems.Service.ServiceActivity;
 
 /**
@@ -36,7 +36,7 @@ public class ItemsActivity extends AppCompatActivity {
 
 
     public void goToContentProvider(View v){
-        Intent intent = new Intent(ItemsActivity.this, ContentProviderItem.class);
+        Intent intent = new Intent(ItemsActivity.this, ContentProviderActivity.class);
         startActivity(intent);
     }
 

@@ -18,6 +18,7 @@ public class SaveItemsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.item_save);
+
     }
 
     public void goSharedPreference(View v){
@@ -31,7 +32,8 @@ public class SaveItemsActivity extends AppCompatActivity {
     }
 
     public void goSqlite(View v){
-
+        Intent intent = new Intent(SaveItemsActivity.this, SaveToSqliteActivity.class);
+        startActivity(intent);
     }
 
     public void goNet(View v){

@@ -11,12 +11,13 @@ import android.widget.Toast;
 
 public class MyDatabaseHelper extends SQLiteOpenHelper {
 
-    public static final String CREATE_CONTACT = "create table Contact (" +
-            "id integer primary key autoincrement," +
-            "name text," +
-            "number text)";
+//    public static final String CREATE_CONTACT = "create table Contact (" +
+//            "id integer primary key autoincrement," +
+//            "name text," +
+//            "number text)";
 
     private Context mContext;
+    private String Create_Table;
 
     public MyDatabaseHelper(Context context, String name, SQLiteDatabase.CursorFactory factory,
                             int version){
@@ -24,11 +25,24 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
 
         mContext = context;
 
+        if (name.equalsIgnoreCase("contact.db")){
+            Create_Table = "create table Contact (" +
+                    "id integer primary key autoincrement," +
+                    "name text," +
+                    "number text)";
+
+        }else if (name.equalsIgnoreCase("Book.db")){
+            Create_Table = "create table Book (" +
+                    "id integer primary key autoincrement," +
+                    "name text," +
+                    "author text)";
+        }
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL(CREATE_CONTACT);
+//        db.execSQL(CREATE_CONTACT);
+        db.execSQL(Create_Table);
 
         Toast.makeText(mContext, "创建数据库成功", Toast.LENGTH_SHORT).show();
     }
@@ -36,6 +50,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("drop table if exists Contact");
+        db.execSQL("drop table if exists Book");
         onCreate(db);
         Toast.makeText(mContext, "重新创建了数据库", Toast.LENGTH_SHORT).show();
     }

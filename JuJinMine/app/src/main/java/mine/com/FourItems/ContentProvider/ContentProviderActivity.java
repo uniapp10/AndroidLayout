@@ -24,7 +24,7 @@ import mine.R;
  * Created by zhudongdong on 2018/1/4.
  */
 
-public class ContentProviderItem extends AppCompatActivity {
+public class ContentProviderActivity extends AppCompatActivity {
 
     ContactsAdapter adapter;
     List<ContactItem> contactsList = new ArrayList<ContactItem>();

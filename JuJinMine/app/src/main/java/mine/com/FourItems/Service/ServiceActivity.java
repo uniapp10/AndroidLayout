@@ -17,8 +17,9 @@ public class ServiceActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.item_activity_service);
+
+
     }
 
     public void startService(View v){

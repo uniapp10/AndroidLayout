@@ -49,7 +49,7 @@
             android:enabled="true">
         </service>
 
-        <activity android:name=".com.FourItems.ContentProvider.ContentProviderItem"
+        <activity android:name=".com.FourItems.ContentProvider.ContentProviderActivity"
             android:label="ContentProvider">
 
         </activity>
@@ -81,5 +81,7 @@
                   android:label="文件存储"/>
         <activity android:name=".com.SaveItems.SaveNetActivity"
                   android:label="网络存储"/>
+        <activity android:name=".com.SaveItems.SaveToSqliteActivity"
+                  android:label="数据库存储"/>
     </application>
 </manifest>
