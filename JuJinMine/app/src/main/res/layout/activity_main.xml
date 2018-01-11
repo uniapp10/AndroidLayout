@@ -55,7 +55,7 @@
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:onClick="goSaveItems"
-        android:text="五大存储"
+        android:text="四大存储"
         android:textAllCaps="true"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
