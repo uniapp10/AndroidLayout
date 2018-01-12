@@ -29,7 +29,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
             Create_Table = "create table Contact (" +
                     "id integer primary key autoincrement," +
                     "name text," +
-                    "number text)";
+                    "author text)";
 
         }else if (name.equalsIgnoreCase("Book.db")){
             Create_Table = "create table Book (" +
@@ -37,13 +37,13 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
                     "name text," +
                     "author text)";
         }
+
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
 //        db.execSQL(CREATE_CONTACT);
         db.execSQL(Create_Table);
-
         Toast.makeText(mContext, "创建数据库成功", Toast.LENGTH_SHORT).show();
     }
 
